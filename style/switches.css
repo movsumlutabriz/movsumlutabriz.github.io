@@ -1,0 +1,84 @@
+.switches__switch {
+	border: 1px solid black;
+	display: inline-block;
+	height: 20px;
+	width: 34px;
+	border-radius: 10px;
+	background-color: #4A4A4A;
+}
+
+.switches__switch--on {
+	background-color: #FFDB4D;
+}
+
+.switches__toolBar  {
+	border: 10px solid #D8D8D8;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-radius: 10px;
+}
+
+.switches__toolBar--on {
+	margin-left: 14px;
+	border-color: white;
+}
+
+.switches__number {
+	height: 20px;
+	width: 34px;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+.switches__row {
+	margin: 5px;
+}
+
+.switches {
+	margin-left: 350px;
+	margin-top: -175px;
+}
+
+@media (max-width: 320px) { 
+	.switches__switch {
+		height: 30px;
+		width: 50px;
+		border-radius: 15px;
+	}
+
+	.switches__toolBar  {
+		border: 15px solid #D8D8D8;
+		border-radius: 20px;
+	}
+
+	.switches__toolBar--on {
+		margin-left: 20px;
+		border-color: white;
+	}
+
+	.switches__number {
+		height: 30px;
+		width: 50px;
+		border-radius: 15px;
+	}
+
+	.switches {
+		margin-left: 100px;
+		margin-top: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

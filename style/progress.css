@@ -1,0 +1,30 @@
+.progress {
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 230px;
+  height: 230px;
+  
+  border-radius: 50%;
+}
+
+.progress__overlap {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 50%;
+  background: white;
+}
+
+.progress--hidden {
+  visibility: hidden;
+}
+
+@media (max-width: 320px) { 
+  .progress {
+    margin-left: auto;
+  }
+}
